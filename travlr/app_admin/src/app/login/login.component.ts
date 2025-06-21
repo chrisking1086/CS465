@@ -12,7 +12,7 @@ import { User } from '../models/user';
   templateUrl: './login.component.html',
   styleUrl: './login.component.css'
 })
-export class LoginComponent implements OnInit {
+export class LoginComponent implements OnInit  {
   public formError: string = '';
   submitted = false;
   credentials = {
